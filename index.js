@@ -17,6 +17,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "What is the URL of the deployed application?",
+        name: "deployedURL",
+    },
+    {
+        type: "input",
         message: "What is the table of contents?",
         name: "contents",
     },
