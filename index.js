@@ -57,11 +57,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error(err) : console.log('Success!')
+    );
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions).then((answers) => {
+        let markdownContents = generateMarkdown(answers);
+        writeToFile("README_autogen.md", markdownContents);
+    });
 }
 
 // function call to initialize program
