@@ -1,27 +1,30 @@
 # Project 1
 ## Description
-Great project.
+aasasdfsdfasdfsd
 
-The URL of the deployed application: https://github.com/ItIsMLiu/readme-generator
-The URL of the GitHub repository: https://github.com/ItIsMLiu/readme-generator
+The URL of the deployed application: asdfasdfasdfasd
 
 ## Table of Contents
-
+asdfasfsadfsadfas
 
 ## Installation
-
+sfasdfasdfasdf
 
 ## Usage
-asdfasdfasd
+asdfasdfasdfasd
 
 ## License
 MIT License
 
 ## Contributing
-asdfasdf
+- Greg
+- Jeff
+- Matt
+- Min
+
 
 ## Tests
-asdfsdf
+N/A
 
 ## Questions
-asdfasdf
+N/A
