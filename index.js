@@ -17,22 +17,17 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the URL of the deployed application?",
-        name: "deployedURL",
-    },
-    {
-        type: "input",
         message: "What is the table of contents?",
         name: "contents",
     },
     {
         type: "input",
-        message: "Please enter the installtion details.",
+        message: "Please enter the installation instructions.",
         name: "installation",
     },
     {
         type: "input",
-        message: "Please enter the usage details?",
+        message: "Please enter the usage information?",
         name: "usage",
     },
     {
@@ -44,12 +39,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Who are the contributors?",
+        message: "What are the contribution guidelines?",
         name: "contributing",
     },
     {
         type: "input",
-        message: "Please enter tests details.",
+        message: "Please enter the test instructions.",
         name: "tests",
     },
     {
@@ -71,7 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers) => {
         let markdownContents = generateMarkdown(answers);
-        writeToFile("README_autogen.md", markdownContents);
+        writeToFile("sample_README.md", markdownContents);
     });
 }
 

@@ -1,16 +1,8 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const contributors = data.contributing.split(",");
-  let contributorsList = "";
-  contributors.forEach((contributor) => {
-    contributorsList += "- " + contributor.trim() + "\n";
-  });
-
   return `# ${data.title}
 ## Description
 ${data.description}
-
-The URL of the deployed application: ${data.deployedURL}
 
 ## Table of Contents
 ${data.contents}
@@ -25,7 +17,7 @@ ${data.usage}
 ${data.license}
 
 ## Contributing
-${contributorsList}
+${data.contributing}
 
 ## Tests
 ${data.tests}
