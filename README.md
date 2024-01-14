@@ -20,8 +20,14 @@ A set of initial code files, as depicted in the second commit, was given, featur
 In your terminal, change directory to a location where you would like to clone the repo, then run the below code line by line:
 ``` terminal
 git clone git@github.com:ItIsMLiu/readme-generator.git
+```
+``` terminal
 cd readme-generator 
+```
+``` terminal
 npm install inquirer@8.0.0
+```
+``` terminal
 node index.js
 ```
 
