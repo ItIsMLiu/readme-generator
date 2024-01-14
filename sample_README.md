@@ -1,24 +1,26 @@
-# Project 1
+# Project 1.0
+![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
+
 ## Description
-Project 1 is created to test the app
+Project created to test readme generator.
 
 ## Table of Contents
-XXX
+asgfksgfsadsfdsajkf
 
 ## Installation
-ASDFASDFSADFASDFSD
+djhfgafkluilfiasfilsds
 
 ## Usage
-ASDFASDFSDFSADFASDF
+hsdklfhalskfhdifhsfle
 
 ## License
-MIT License
+Eclipse Public License 2.0
 
 ## Contributing
-FASDFASDFASDFASDFASDF
+ahildfghalsdfdslfjdsfahd
 
 ## Tests
-fasdfasdfasdfsadf
+gfhaklsdjfglasdfuhiksahfbuadfs
 
 ## Questions
-N/A
+fjhdagbfuagfhasldhfdskjbfaldsf
