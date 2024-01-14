@@ -19,7 +19,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${data.license}
+Notice: The application is covered under the ${data.license}.  
 
 ## Contributing
 ${data.contributing}

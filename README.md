@@ -28,7 +28,7 @@ node index.js
 
 To launch the README generator application, open your terminal and proceed with the installation steps outlined above. Subsequently, the user will receive prompts to provide information regarding the application repository, including the project title, description, table of contents, installation instructions, usage details, licensing information, contribution guidelines, testing procedures, and any questions they may have.
 
-The command-line application will seamlessly process user input, culminating in the generation of a polished and professional README.md file, complete with the relevant sections and details.
+The command-line application will seamlessly process user input, culminating in the generation of a polished and professional README.md file, complete with the relevant sections and details. The badge of the user's choosen license for their application from a list of options will be added under the title of the README file. 
 
 
 ## Credits
