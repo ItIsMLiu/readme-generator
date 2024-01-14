@@ -3,6 +3,13 @@ let badge;
 
 function generateMarkdown(data) {
   generateBadge(data.license);
+  
+  const allContributors = data.contributors.split(",");
+  let contributorsList = "";
+  allContributors.forEach((contributor) => {
+    contributorsList += "- " + contributor.trim() + "\n";
+  });
+
   return `# ${data.title}
 ${badge}
 
@@ -10,7 +17,12 @@ ${badge}
 ${data.description}
 
 ## Table of Contents
-${data.contents}
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -22,13 +34,20 @@ ${data.usage}
 Notice: The application is covered under the ${data.license}.  
 
 ## Contributing
+Contributors to this project:
+${contributorsList}
+
+Instruction on how to make contributions:
 ${data.contributing}
 
 ## Tests
 ${data.tests}
 
 ## Questions
-${data.questions}
+If you have any questions, please email me using the email address below.
+- My GitHub username is ${data.username}. 
+- My GitHub profile: https://github.com/${data.username}
+- My email address: ${data.email} 
 `;
 }
 

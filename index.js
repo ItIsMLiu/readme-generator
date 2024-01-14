@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the table of contents?",
-        name: "contents",
-    },
-    {
-        type: "input",
         message: "Please enter the installation instructions.",
         name: "installation",
     },
@@ -44,15 +39,24 @@ const questions = [
     },
     {
         type: "input",
+        message: "Who are the contributors?",
+        name: "contributors",
+    },
+    {
+        type: "input",
         message: "Please enter the test instructions.",
         name: "tests",
     },
     {
         type: "input",
-        message: "Please enter questions details.",
-        name: "questions",
+        message: "What is your GitHub username?",
+        name: "username",
     },
-
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email",
+    },
 ];
 
 // function to write README file
