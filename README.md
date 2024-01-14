@@ -5,7 +5,7 @@
 
 A command-line application has been crafted to rapidly generate a polished README.md file for a new project. The invocation of this command-line app is initiated by using the following command: node index.js. Subsequently, it prompts the user to provide answers to pertinent questions. These questions encompass the purpose of the app, usage instructions, installation guidelines, procedures for reporting issues, and avenues for making contributions.
 
-The link to walkthrough video: 
+The link to walkthrough video: https://www.youtube.com/watch?v=ATXuIYVWHwk
 
 A set of initial code files, as depicted in the second commit, was given, featuring javascript and json files. The project then underwent further development, incorporating my recently acquired skills in JavaScript ES6 and npm. Below, I outline how these skills were seamlessly integrated into the project:
 
